@@ -7,12 +7,13 @@ var lives = 5
 func _ready():
 	pause_mode = Node.PAUSE_MODE_PROCESS
 	randomize()
-	VP = get_viewport().size
+	#VP = get_viewport().size
+	VP = Vector2(1272,1500)
 	var _signal = get_tree().get_root().connect("size_changed", self, "_resize")
 	
 func _resize():
-	VP = get_viewport().size
-	
+	#VP = get_viewport().size
+	pass
 func reset():
 	get_tree().paused = false
 	score = 0
