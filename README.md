@@ -1,6 +1,6 @@
-# Exercise-02d-Menu-and-HUD
+# Space Shooter 
 
-Exercise for MSCH-C220
+project for MSCH-C220
 
 A basic space-shooter arcade game, created in Godot.
 
@@ -16,7 +16,7 @@ The explosion spritesheet was released into the public domain by [StumpyStrust](
 None
 
 ## Future Development
-Advanced features?
+may implement more feature later 
 
 ## Created by
 Grant Holloway 
