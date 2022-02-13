@@ -18,7 +18,7 @@ func _physics_process(_delta):
 
 
 func _on_Area2D_body_entered(body):
-	if body.name != "Enemy 2":
+	if body.name != "Enemy2":
 		if body.has_method("damage"):
 			body.damage(damage)
 		Effects = get_node_or_null("/root/Game/Effects")

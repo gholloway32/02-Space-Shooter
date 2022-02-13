@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 var y_positions = [100,150,200,500,550]
-var x_positions = [0, 200, 400, 600,1000]
+var x_positions = [0, 250, 450, 650,1050]
 var initial_position = Vector2.ZERO
 var direction = Vector2(1.5,0)
 var wobble = 30.0
@@ -10,7 +10,7 @@ var wobble = 30.0
 var health = 1
 
 var Effects = null
-onready var Bullet = load("res://Enemy/Bullet.tscn")
+onready var Bullet = load("res://Enemy/Bullet2.tscn")
 onready var Explosion = load("res://Effects/Explosion.tscn")
 
 func _ready():
@@ -51,4 +51,3 @@ func _on_Timer_timeout():
 		bullet.rotation = d
 		bullet.global_position = global_position + Vector2(0,-40).rotated(d)
 		Effects.add_child(bullet)
-	

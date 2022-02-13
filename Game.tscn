@@ -102,6 +102,9 @@ margin_bottom = 400.0
 text = "Game Paused"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Restart" type="Button" parent="UI/Menu"]
 margin_left = 465.0
