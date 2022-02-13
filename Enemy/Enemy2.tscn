@@ -21,6 +21,7 @@ polygon = PoolVector2Array( 27.5, -39.6, 27.5, -37.7, 51.5, -9.1, 51.5, 9.8, 42.
 shape = SubResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
 autostart = true
 
 [connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]
